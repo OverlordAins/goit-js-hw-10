@@ -16,3 +16,38 @@
 @import url('./badges.css');
 @import url('./back-link.css');
 
+
+ .timer {
+   display: flex;
+   gap: 15px;
+   margin-top: 20px;
+ }
+
+ .field {
+   text-align: center;
+ }
+
+ .value {
+   font-size: 32px;
+   font-weight: bold;
+   display: block;
+ }
+
+
+ .form {
+   display: flex;
+   flex-direction: column;
+   gap: 15px;
+   max-width: 300px;
+   margin-top: 20px;
+ }
+
+ fieldset {
+   border: 1px solid #ccc;
+   padding: 10px;
+ }
+
+ button {
+   padding: 8px 12px;
+   cursor: pointer;
+ }
